@@ -2,6 +2,8 @@
  * name: Krijn Hoogendorp
  * email: krijn_hoogendorp@hotmail.com
  * HUID: 8724970
+ * I have used code from the following tutorial:
+ * https://developer.android.com/training/basics/firstapp/index.html
  * 
  * This program simply displays "Hello Android!" on an Android phone.
  */
