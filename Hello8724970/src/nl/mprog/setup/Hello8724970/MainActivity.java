@@ -55,4 +55,12 @@ public class MainActivity extends ActionBarActivity {
     	intent.putExtra(EXTRA_MESSAGE, message);
     	startActivity(intent);
     }
+    
+    /** Called when the user clicks the Send button */
+    public void nextPage(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayNextActivity.class);
+        startActivity(intent);
+
+    }
 }

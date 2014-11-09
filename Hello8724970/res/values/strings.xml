@@ -6,7 +6,11 @@
     <string name="title_activity_main">&quot;MainActivity&quot;</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Hello8724970</string>
-    <string name="button_send">Send</string>
+    <string name="button_send">Send!!</string>
+    <string name="button_next">next page</string>
+    <string name="button_return">previous page</string>
+    <string name="title_close">return</string>
     <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_display_next">DisplayNextActivity</string>
 
 </resources>

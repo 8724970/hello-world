@@ -30,15 +30,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.helloworld.MainActivity" />
         </activity>
-        
-     	<activity
-        	android:name="com.example.myfirstapp.DisplayMessageActivity"
-        	android:label="@string/title_activity_display_message"
-        	android:parentActivityName="com.example.myfirstapp.MainActivity" >
-        	<meta-data
-            	android:name="android.support.PARENT_ACTIVITY"
-            	android:value="com.example.myfirstapp.MainActivity" />
-   		 </activity>
+        <activity
+            android:name="com.example.myfirstapp.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.myfirstapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayNextActivity"
+            android:label="@string/title_activity_display_next"
+            android:parentActivityName=".DisplayMessageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mprog.setup.Hello8724970.DisplayMessageActivity" />
+        </activity>
     </application>
 
 </manifest>
